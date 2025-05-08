@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             // Sample new color to predict
-            int[] newColor = {255, 100, 100}; // Example: a shade of red
+            int[] newColor = {160, 32, 240}; // Example: a shade of red
 
             // Fetch all preferences from the database for prediction
             List<Preference> allPreferences = new ArrayList<>();
